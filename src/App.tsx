@@ -1,9 +1,10 @@
-import User from "./components/User"
-
+import Counter from './components/Counter.tsx'
+import UserProfile from './components/UserProfile.tsx'
 function App() {
   return (
     <div>
-      <User name='alex' age={20} isStudent={true}/>
+      <Counter/>
+      <UserProfile/>
     </div>
   )
 }
