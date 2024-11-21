@@ -1,10 +1,12 @@
-import Counter from './components/Counter.tsx'
-import UserProfile from './components/UserProfile.tsx'
+import ContactForm from './components/ContactForm.tsx'
+import FocusInput from './components/FocusInput.tsx'
+import Form from './components/Form.tsx'
 function App() {
   return (
     <div>
-      <Counter/>
-      <UserProfile/>
+      {/* <Form/>
+      <FocusInput/> */}
+      <ContactForm/>
     </div>
   )
 }

@@ -15,4 +15,9 @@ type UserProfileInformation = {
   email:  string;
 }
 
-export { type Info, type AdminInfoList, type UserProfileInformation }
+type Todo = {
+  id: number;
+  task: string;
+  completed: boolean;
+}
+export { type Todo, type Info, type AdminInfoList, type UserProfileInformation }
